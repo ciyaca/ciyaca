@@ -1,10 +1,5 @@
 
 
-# CIYACA
-
-CIYACA Is Yet Another Chat APP
-<br />
-
 <p align="center">
   <a href="https://github.com/ciyaca/ciyaca/">
     <img src="images/logo.png" alt="Logo" width="160" height="160">
