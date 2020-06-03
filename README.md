@@ -163,8 +163,8 @@ filetree
 [stars-shield]: https://img.shields.io/github/stars/ciyaca/ciyaca.svg?style=flat-square
 [stars-url]: https://github.com/ciyaca/ciyaca/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ciyaca/ciyaca.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/ciyaca/ciyaca.svg
-[license-shield]: https://img.shields.io/github/license/ciyaca/ciyaca.svg?style=flat-square
+[issues-url]: https://github.com/ciyaca/ciyaca/issues/new
+[license-shield]:https://flat.badgen.net/github/license/ciyaca/ciyaca
 [license-url]: https://github.com/ciyaca/ciyaca/blob/master/LICENSE
 
 
