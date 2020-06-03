@@ -3,27 +3,33 @@
 # CIYACA
 
 CIYACA Is Yet Another Chat APP
-
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL-3.0][license-shield]][license-url]
-
-<!-- PROJECT LOGO -->
 <br />
 
 <p align="center">
   <a href="https://github.com/ciyaca/ciyaca/">
     <img src="images/logo.png" alt="Logo" width="160" height="160">
   </a>
+  
+<!-- PROJECT SHIELDS -->
+
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![GPL-3.0][license-shield]][license-url]
+</div>
+
+<!-- PROJECT LOGO -->
+
   <h3 align="center">CIYACA</h3>
   <p align="center">
-    CIYACA Is Yet Another Chat APP!CIYACA 是为北京理工大学《2020年春季Linux 系统编程》大作业而开发的聊天+ BBS 软件， 包括服务端和客户端，均采用 C/CPP 实现。
+    CIYACA Is Yet Another Chat APP!
+    <br/>
+    CIYACA 是为北京理工大学《2020年春季Linux 系统编程》大作业而开发的聊天+ BBS 软件， 包括服务端和客户端，均采用 C/CPP 实现。
     <br />
-    <a href="https://ciyaca.github.io/"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://ciyaca.github.io/"><strong>探索本项目的在线文档（为 PDF 文档的在线版本，实际上 PDF 版本效果更加） »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ciyaca/ciyaca/">查看Demo</a>
@@ -32,7 +38,6 @@ CIYACA Is Yet Another Chat APP
     ·
     <a href="https://github.com/ciyaca/ciyaca/issues">提出新特性</a>
   </p>
-
 
 </p>
 
@@ -100,14 +105,22 @@ filetree
 | BBS 文件下载   | 可以从论坛上下载文件。                                       |
 
 
+### 特色与创新之处
+
+- 专门设计了 Logo、名称
+- 采用 Github 进行团队协作
+- 采用 Sphinx + reStructuredText 进行文档写作
+- 采用石墨文档进行共享编辑、整理前期内容
+- 设计了美观的界面
+  - 有聊天气泡
+- 使用了 RPC 的方式封装了底层通信，提供耦合度极低的双向调用方式
+
 ### 技术栈
-本项目使用C++进行开发，使用MySQL数据库。
 
-### 使用到的框架
-
+- 本项目使用 C++ 进行开发，使用 MySQL 数据库。
+- 使用 Qt5 作为客户端
 - [msgpack](https://github.com/msgpack/msgpack)
 - [libmysqlclient](https://dev.mysql.com/downloads/c-api/)
-- [feverrpc-ng](https://github.com/ciyaca/feverrpc-ng)
 
 ### 贡献者以及项目分工
 
@@ -129,7 +142,7 @@ filetree
 
 ### 版本控制
 
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
+该项目使用Git进行版本管理。您可以在 [repository](https://github.com/ciyaca/ciyaca) 参看当前可用版本。
 
 
 
