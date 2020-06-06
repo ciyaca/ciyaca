@@ -1,0 +1,4 @@
+build-test-Desktop_Qt_5_14_0_GCC_64bit-Debug/**
+test.pro.user*
+*.o
+build*/**
