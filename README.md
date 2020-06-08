@@ -187,25 +187,25 @@ git clone https://github.com/ciyaca/ciyaca.git
 ├── LICENSE
 ├── README.md
 └── server
-    ├── account.cpp
+    ├── account.cpp	// 账户、群组、好友管理
     ├── account.hpp
-    ├── bbs.cpp
+    ├── bbs.cpp	// bbs服务、云文件实现
     ├── bbs.hpp
-    ├── im.cpp
+    ├── im.cpp	//单聊、群聊、历史消息实现
     ├── im.hpp
     ├── makefile
-    ├── net_disk
+    ├── net_disk	//云文件的存储目录
     │   ├── addfriend.cpp
     │   ├── addfriend.o
     │   ├── outTestFile.txt
     │   └── Screenshot from 2020-05-27 19-07-21.png
     ├── README.md
-    ├── server_main.cpp
+    ├── server_main.cpp	//主程序
     ├── sql
-    │   ├── ciyacaSQL.sql
-    │   ├── sql.cpp
+    │   ├── ciyacaSQL.sql	//数据库文件
+    │   ├── sql.cpp	//数据库初始化与访问实现
     │   └── sql.hpp
-    └── test
+    └── test	//功能测试程序
         ├── file.txt
         ├── testCiyacaSQL
         ├── testCiyacaSQL.cpp
