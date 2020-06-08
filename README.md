@@ -83,50 +83,50 @@ git clone https://github.com/ciyaca/ciyaca.git
 
 ## 文件目录说明
 
-```
+```bash
 ..
 ├── client
 │   └── src
-│       ├── addfriend.cpp
-│       ├── addfriend.h
+│       ├── addfriend.cpp//添加好友
+│       ├── addfriend.h
 │       ├── addfriend.ui
-│       ├── bbsnewpostdialog.cpp
-│       ├── bbsnewpostdialog.h
+│       ├── bbsnewpostdialog.cpp//bbs发帖
+│       ├── bbsnewpostdialog.h
 │       ├── bbsnewpostdialog.ui
-│       ├── bbspostlistwidget.cpp
-│       ├── bbspostlistwidget.h
-│       ├── BBSPostReceiver.cpp
-│       ├── BBSPostReceiver.h
-│       ├── chatface.cpp
-│       ├── ChatfaceForm.ui.qml
+│       ├── bbspostlistwidget.cpp//bbs帖子显示结构
+│       ├── bbspostlistwidget.h
+│       ├── BBSPostReceiver.cpp//收贴
+│       ├── BBSPostReceiver.h
+│       ├── chatface.cpp//聊天
+│       ├── ChatfaceForm.ui.qml
 │       ├── chatface.h
 │       ├── Chatface.qml
 │       ├── chatface.ui
-│       ├── chatmessage.cpp
-│       ├── chatmessage.h
-│       ├── client.cpp
-│       ├── client.h
-│       ├── come_message.cpp
-│       ├── come_message.h
+│       ├── chatmessage.cpp//聊天信息
+│       ├── chatmessage.h
+│       ├── client.cpp//登录
+│       ├── client.h
+│       ├── come_message.cpp//来信
+│       ├── come_message.h
 │       ├── come_message.ui
-│       ├── common.cpp
-│       ├── common.h
-│       ├── contactitem.cpp
-│       ├── contactitem.h
+│       ├── common.cpp//通用数据结构
+│       ├── common.h
+│       ├── contactitem.cpp//联系人
+│       ├── contactitem.h
 │       ├── contactitem.ui
-│       ├── controller.cpp
-│       ├── controller.h
-│       ├── creategroup.cpp
-│       ├── creategroup.h
+│       ├── controller.cpp//主控函数
+│       ├── controller.h
+│       ├── creategroup.cpp//创建群组
+│       ├── creategroup.h
 │       ├── creategroup.ui
-│       ├── emoji.cpp
-│       ├── emoji.h
+│       ├── emoji.cpp//emoji表情
+│       ├── emoji.h
 │       ├── emoji.ui
-│       ├── emojiwidget.cpp
-│       ├── emojiwidget.h
+│       ├── emojiwidget.cpp//显示emoji的框
+│       ├── emojiwidget.h
 │       ├── emojiwidget.ui
-│       ├── feverrpc
-│       │   ├── feverrpc-client.cpp
+│       ├── feverrpc//底层通信rpc模块
+│       │   ├── feverrpc-client.cpp
 │       │   ├── feverrpc-client.hpp
 │       │   ├── feverrpc.cpp
 │       │   ├── feverrpc-factory.cpp
@@ -136,14 +136,14 @@ git clone https://github.com/ciyaca/ciyaca.git
 │       │   ├── feverrpc-server.hpp
 │       │   ├── utils.cpp
 │       │   └── utils.hpp
-│       ├── friendrequest.cpp
-│       ├── friendrequest.h
+│       ├── friendrequest.cpp//好友请求
+│       ├── friendrequest.h
 │       ├── friendrequest.ui
 │       ├── image.qrc
 │       ├── info_code.h
 │       ├── main.cpp
-│       ├── mainwindow.cpp
-│       ├── mainwindow.h
+│       ├── mainwindow.cpp//主界面
+│       ├── mainwindow.h
 │       ├── mainwindow.ui
 │       ├── Makefile
 │       ├── Manage.h
