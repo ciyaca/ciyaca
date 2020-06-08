@@ -36,13 +36,9 @@
 
 </p>
 
-## 目录
+## 编译环境和使用方式
 
-[TOC]
-
-### 编译环境和使用方式
-
-##### 编译环境
+### 编译环境
 * Ubuntu 18.04
 * g++ 7.5.0
 * make 4.1
@@ -50,40 +46,40 @@
 * MySQL Ver 14.14 Distrib 5.7.30
 * msgpack 3.2.1
 
-##### 使用方式
+### 使用方式
 
 首先编译运行server，然后在启动客户端。
 
-###### server
+#### server
 1. 安装并运行 MySQL
 2. 在项目根目录中使用 `make all` 命令，所有源码会被编译，得到的 server 主程序的可执行文件置于 `bin/server`
 3. 对于 `sql/ciyacaSQL.sql` ，在 `MySQL` 里创建一个名为 `ciyacaSQL`的数据库，并使用 `source` 命令将其导入 
 4. 在数据库导入完毕后，将 `sql/sql.cpp`中的 `mysql_real_connect` 函数连接参数填写正确（MySQL 登录账户、登录口令、端口、数据库名等）
 5. 执行 `bin/server` 即可启动服务端程序
 
-###### client
+#### client
 1. 下载Qt 5.14.0
 2. 安装时选择全部组件
 3. 使用qt打开工程，选择```client/serc/test.pro```进行加载
 4. 运行即可
 
 
-##### 开发前的配置要求
+### 开发前的配置要求
 1. 安装msgpack  
     请访问https://github.com/msgpack/msgpack-c/tree/cpp_master自行编译安装
 2. 安装qt5.14.0
 3. 安装mysql 5.7.30
 4. 依据server说明配置数据库
 
-###### **安装步骤**
+### **安装步骤**
 
-2. Clone the repo
+Clone the repo
 
 ```sh
 git clone https://github.com/ciyaca/ciyaca.git
 ```
 
-### 文件目录说明
+## 文件目录说明
 
 ```
 ..
@@ -219,7 +215,7 @@ git clone https://github.com/ciyaca/ciyaca.git
 
 
 
-### 基本功能
+## 基本功能
 
 | 功能名称       | 功能介绍                                                     |
 | :------------- | :----------------------------------------------------------- |
@@ -238,7 +234,7 @@ git clone https://github.com/ciyaca/ciyaca.git
 | BBS 文件下载   | 可以从论坛上下载文件。                                       |
 
 
-### 特色与创新之处
+## 特色与创新之处
 
 - 专门设计了 Logo、名称
 - 采用 Github 进行团队协作
@@ -248,14 +244,14 @@ git clone https://github.com/ciyaca/ciyaca.git
   - 有聊天气泡
 - 使用了 RPC 的方式封装了底层通信，提供耦合度极低的双向调用方式
 
-### 技术栈
+## 技术栈
 
 - 本项目使用 C++ 进行开发，使用 MySQL 数据库。
 - 使用 Qt5 作为客户端
 - [msgpack](https://github.com/msgpack/msgpack)
 - [libmysqlclient](https://dev.mysql.com/downloads/c-api/)
 
-### 贡献者以及项目分工
+## 贡献者以及项目分工
 
 ### 分工
 
@@ -273,17 +269,17 @@ git clone https://github.com/ciyaca/ciyaca.git
 
 在确定好分工后，会定期开展会议来分享大家的进度以及遇到的问题。同时，小组内部部分成员会不定期讨论来决定一些细节问题，比如接口设计问题，并通过及时沟通解决开发上遇到的冲突。我们项目实现了成员职责的明确界定，项目的每个部分都有对应的负责人。我们重视人际协调和沟通，每个人遇到问题，我们大家都会想办法一起解决。通过我们良好的人员合作，我们最终圆满完成了这个项目。
 
-### 版本控制
+## 版本控制
 
 该项目使用Git进行版本管理。您可以在 [repository](https://github.com/ciyaca/ciyaca) 参看当前可用版本。
 
 
 
-### 版权说明
+## 版权说明
 
 该项目签署了GPL-3.0 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
 
-### 鸣谢
+## 鸣谢
 
 
 - [buttonrpc](https://github.com/button-chen/buttonrpc_cpp14)
