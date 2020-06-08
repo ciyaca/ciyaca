@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/ciyaca/ciyaca/">
+  <a href="https://github.com/ciyaca/">
     <img src="images/logo.png" alt="Logo" width="160" height="160">
   </a>
 
@@ -27,8 +27,6 @@
     <a href="https://ciyaca.github.io/"><strong>探索本项目的在线文档（为 PDF 文档的在线版本，实际上 PDF 版本效果更加） »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ciyaca/ciyaca/">查看Demo</a>
-    ·
     <a href="https://github.com/ciyaca/ciyaca/issues">报告Bug</a>
     ·
     <a href="https://github.com/ciyaca/ciyaca/issues">提出新特性</a>
