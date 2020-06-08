@@ -48,7 +48,17 @@
 
 ### 使用方式
 
-首先编译运行server，然后在启动客户端。
+#### 下载项目
+
+```sh
+git clone https://github.com/ciyaca/ciyaca.git
+```
+
+或者下载压缩包
+
+#### 编译运行
+
+首先编译运行server，然后再启动客户端。
 
 #### server
 1. 安装并运行 MySQL
@@ -70,14 +80,6 @@
 2. 安装qt5.14.0
 3. 安装mysql 5.7.30
 4. 依据server说明配置数据库
-
-### **安装步骤**
-
-Clone the repo
-
-```sh
-git clone https://github.com/ciyaca/ciyaca.git
-```
 
 ## 文件目录说明
 
