@@ -86,102 +86,33 @@ git clone https://github.com/ciyaca/ciyaca.git
 ├── client
 │   └── src
 │       ├── addfriend.cpp//添加好友
-│       ├── addfriend.h
-│       ├── addfriend.ui
 │       ├── bbsnewpostdialog.cpp//bbs发帖
-│       ├── bbsnewpostdialog.h
-│       ├── bbsnewpostdialog.ui
 │       ├── bbspostlistwidget.cpp//bbs帖子显示结构
-│       ├── bbspostlistwidget.h
 │       ├── BBSPostReceiver.cpp//收贴
-│       ├── BBSPostReceiver.h
 │       ├── chatface.cpp//聊天
-│       ├── ChatfaceForm.ui.qml
-│       ├── chatface.h
-│       ├── Chatface.qml
-│       ├── chatface.ui
 │       ├── chatmessage.cpp//聊天信息
 │       ├── chatmessage.h
 │       ├── client.cpp//登录
 │       ├── client.h
 │       ├── come_message.cpp//来信
 │       ├── come_message.h
-│       ├── come_message.ui
 │       ├── common.cpp//通用数据结构
 │       ├── common.h
 │       ├── contactitem.cpp//联系人
 │       ├── contactitem.h
-│       ├── contactitem.ui
 │       ├── controller.cpp//主控函数
 │       ├── controller.h
 │       ├── creategroup.cpp//创建群组
-│       ├── creategroup.h
-│       ├── creategroup.ui
 │       ├── emoji.cpp//emoji表情
-│       ├── emoji.h
-│       ├── emoji.ui
 │       ├── emojiwidget.cpp//显示emoji的框
-│       ├── emojiwidget.h
-│       ├── emojiwidget.ui
 │       ├── feverrpc//底层通信rpc模块
 │       │   ├── feverrpc-client.cpp
 │       │   ├── feverrpc-client.hpp
-│       │   ├── feverrpc.cpp
-│       │   ├── feverrpc-factory.cpp
-│       │   ├── feverrpc-factory.hpp
-│       │   ├── feverrpc.hpp
-│       │   ├── feverrpc-server.cpp
-│       │   ├── feverrpc-server.hpp
-│       │   ├── utils.cpp
-│       │   └── utils.hpp
+|       |   |.....
 │       ├── friendrequest.cpp//好友请求
-│       ├── friendrequest.h
-│       ├── friendrequest.ui
-│       ├── image.qrc
-│       ├── info_code.h
 │       ├── main.cpp
 │       ├── mainwindow.cpp//主界面
 │       ├── mainwindow.h
-│       ├── mainwindow.ui
-│       ├── Makefile
-│       ├── Manage.h
-│       ├── moc_addfriend.cpp
-│       ├── moc_bbsnewpost.cpp
-│       ├── moc_chatface.cpp
-│       ├── moc_chatmessage.cpp
-│       ├── moc_client.cpp
-│       ├── moc_come_message.cpp
-│       ├── moc_contactitem.cpp
-│       ├── moc_controller.cpp
-│       ├── moc_creategroup.cpp
-│       ├── moc_emoji.cpp
-│       ├── moc_emojiwidget.cpp
-│       ├── moc_friendrequest.cpp
-│       ├── moc_mainwindow.cpp
-│       ├── moc_predefs.h
-│       ├── moc_widget.cpp
-│       ├── normal_emoji.cpp
-│       ├── normal_emoji.h
-│       ├── normal_emoji.ui
-│       ├── post.cpp
-│       ├── post.h
-│       ├── qrc_image.cpp
-│       ├── test
-│       ├── test.pro
-│       ├── ui_addfriend.h
-│       ├── ui_bbsnewpost.h
-│       ├── ui_chatface.h
-│       ├── ui_come_message.h
-│       ├── ui_contactitem.h
-│       ├── ui_creategroup.h
-│       ├── ui_emoji.h
-│       ├── ui_emojiwidget.h
-│       ├── ui_friendrequest.h
-│       ├── ui_mainwindow.h
-│       ├── ui_widget.h
-│       ├── widget.cpp
-│       ├── widget.h
-│       └── widget.ui
 ├── images
 │   └── logo.png
 ├── LICENSE
