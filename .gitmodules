@@ -4,3 +4,6 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/ciyaca/server.git
+[submodule "doc"]
+	path = doc
+	url = https://github.com/ciyaca/ciyaca.github.io
