@@ -42,41 +42,177 @@
 
 ### 编译环境和使用方式
 
-###### 编译环境
+##### 编译环境
+* Ubuntu 18.04
+* g++ 7.5.0
+* make 4.1
+* qt 5.14.0
+* MySQL Ver 14.14 Distrib 5.7.30
+* msgpack 3.2.1
 
-###### 使用方式
+##### 使用方式
 
-###### 开发前的配置要求
+首先编译运行server，然后在启动客户端。
+
+###### server
+剑威
+1. sql配置
+2. 编译运行
+
+###### client
+1. 下载Qt 5.14.0
+2. 安装时选择全部组件
+3. 使用qt打开工程，选择```client/serc/test.pro```进行加载
+4. 运行即可
+
+
+##### 开发前的配置要求
+1. 安装msgpack  
+  请访问https://github.com/msgpack/msgpack-c/tree/cpp_master自行编译安装
+2. 安装qt5.14.0
+3. 安装mysql 5.7.30
+4. 依据server说明配置数据库
 
 ###### **安装步骤**
 
 2. Clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/ciyaca/ciyaca.git
 ```
 
 ### 文件目录说明
-eg:
 
 ```
-filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
+..
+├── client
+│   └── src
+│       ├── addfriend.cpp
+│       ├── addfriend.h
+│       ├── addfriend.ui
+│       ├── bbsnewpostdialog.cpp
+│       ├── bbsnewpostdialog.h
+│       ├── bbsnewpostdialog.ui
+│       ├── bbspostlistwidget.cpp
+│       ├── bbspostlistwidget.h
+│       ├── BBSPostReceiver.cpp
+│       ├── BBSPostReceiver.h
+│       ├── chatface.cpp
+│       ├── ChatfaceForm.ui.qml
+│       ├── chatface.h
+│       ├── Chatface.qml
+│       ├── chatface.ui
+│       ├── chatmessage.cpp
+│       ├── chatmessage.h
+│       ├── client.cpp
+│       ├── client.h
+│       ├── come_message.cpp
+│       ├── come_message.h
+│       ├── come_message.ui
+│       ├── common.cpp
+│       ├── common.h
+│       ├── contactitem.cpp
+│       ├── contactitem.h
+│       ├── contactitem.ui
+│       ├── controller.cpp
+│       ├── controller.h
+│       ├── creategroup.cpp
+│       ├── creategroup.h
+│       ├── creategroup.ui
+│       ├── emoji.cpp
+│       ├── emoji.h
+│       ├── emoji.ui
+│       ├── emojiwidget.cpp
+│       ├── emojiwidget.h
+│       ├── emojiwidget.ui
+│       ├── feverrpc
+│       │   ├── feverrpc-client.cpp
+│       │   ├── feverrpc-client.hpp
+│       │   ├── feverrpc.cpp
+│       │   ├── feverrpc-factory.cpp
+│       │   ├── feverrpc-factory.hpp
+│       │   ├── feverrpc.hpp
+│       │   ├── feverrpc-server.cpp
+│       │   ├── feverrpc-server.hpp
+│       │   ├── utils.cpp
+│       │   └── utils.hpp
+│       ├── friendrequest.cpp
+│       ├── friendrequest.h
+│       ├── friendrequest.ui
+│       ├── image.qrc
+│       ├── info_code.h
+│       ├── main.cpp
+│       ├── mainwindow.cpp
+│       ├── mainwindow.h
+│       ├── mainwindow.ui
+│       ├── Makefile
+│       ├── Manage.h
+│       ├── moc_addfriend.cpp
+│       ├── moc_bbsnewpost.cpp
+│       ├── moc_chatface.cpp
+│       ├── moc_chatmessage.cpp
+│       ├── moc_client.cpp
+│       ├── moc_come_message.cpp
+│       ├── moc_contactitem.cpp
+│       ├── moc_controller.cpp
+│       ├── moc_creategroup.cpp
+│       ├── moc_emoji.cpp
+│       ├── moc_emojiwidget.cpp
+│       ├── moc_friendrequest.cpp
+│       ├── moc_mainwindow.cpp
+│       ├── moc_predefs.h
+│       ├── moc_widget.cpp
+│       ├── normal_emoji.cpp
+│       ├── normal_emoji.h
+│       ├── normal_emoji.ui
+│       ├── post.cpp
+│       ├── post.h
+│       ├── qrc_image.cpp
+│       ├── test
+│       ├── test.pro
+│       ├── ui_addfriend.h
+│       ├── ui_bbsnewpost.h
+│       ├── ui_chatface.h
+│       ├── ui_come_message.h
+│       ├── ui_contactitem.h
+│       ├── ui_creategroup.h
+│       ├── ui_emoji.h
+│       ├── ui_emojiwidget.h
+│       ├── ui_friendrequest.h
+│       ├── ui_mainwindow.h
+│       ├── ui_widget.h
+│       ├── widget.cpp
+│       ├── widget.h
+│       └── widget.ui
+├── images
+│   └── logo.png
+├── LICENSE
 ├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
-
+└── server
+    ├── account.cpp
+    ├── account.hpp
+    ├── bbs.cpp
+    ├── bbs.hpp
+    ├── im.cpp
+    ├── im.hpp
+    ├── makefile
+    ├── net_disk
+    │   ├── addfriend.cpp
+    │   ├── addfriend.o
+    │   ├── outTestFile.txt
+    │   └── Screenshot from 2020-05-27 19-07-21.png
+    ├── README.md
+    ├── server_main.cpp
+    ├── sql
+    │   ├── ciyacaSQL.sql
+    │   ├── sql.cpp
+    │   └── sql.hpp
+    └── test
+        ├── file.txt
+        ├── testCiyacaSQL
+        ├── testCiyacaSQL.cpp
+        ├── testFileTransmit
+        └── testFileTransmit.cpp
 ```
 
 
